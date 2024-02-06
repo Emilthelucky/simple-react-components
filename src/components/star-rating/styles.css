@@ -1,0 +1,9 @@
+.active{
+    width: 40px;
+    color: yellow;
+}
+
+.no-active{
+    width: 40px;
+    color: black;
+}

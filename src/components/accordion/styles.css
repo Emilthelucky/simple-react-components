@@ -1,0 +1,32 @@
+*{
+    user-select: none;
+}
+
+.wraper{
+    display: flex;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.title > div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: whitesmoke;
+}
+
+.element{
+    background: rgb(121, 64, 14);
+    width: 400px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
