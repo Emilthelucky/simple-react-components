@@ -1,13 +1,14 @@
 import './App.css';
-import Accordion from './components/accordion';
-import StarRating from './components/star-rating';
+import LoadMore from './components/load-more';
+// import Accordion from './components/accordion';
+// import StarRating from './components/star-rating';
 
 function App() {
   return (
     <div className="App">
       {/* Adding React Component */}
-      <Accordion></Accordion>
-      <StarRating stars={10}></StarRating>
+      {/* <StarRating stars={10}></StarRating> */}
+      <LoadMore></LoadMore>
     </div>
   );
 }
